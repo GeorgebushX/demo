@@ -1,11 +1,83 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>test</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>George Bush - Biography</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-<h1>test</h1>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">George Bush</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#legacy">Legacy</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<header class="bg-primary text-white text-center py-5">
+    <h1>George W. Bush</h1>
+    <p>43rd President of the United States (2001-2009)</p>
+</header>
+
+<!-- About Section -->
+<section id="about" class="container mt-5">
+    <div class="row">
+        <div class="col-md-4">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/George-W-Bush.jpeg" class="img-fluid rounded" alt="George Bush">
+        </div>
+        <div class="col-md-8">
+            <h2>About George W. Bush</h2>
+            <p>George Walker Bush served as the 43rd president of the United States from 2001 to 2009. A member of the Republican Party, he was previously the 46th governor of Texas from 1995 to 2000.</p>
+            <p>Born on July 6, 1946, he is the son of George H. W. Bush, the 41st president. His presidency was marked by significant events such as the September 11 attacks and the subsequent War on Terror.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Legacy Section -->
+<section id="legacy" class="bg-light py-5">
+    <div class="container">
+        <h2 class="text-center">Legacy & Achievements</h2>
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <h4>9/11 Response</h4>
+                <p>Led the U.S. response to the terrorist attacks on September 11, 2001, initiating the War on Terror.</p>
+            </div>
+            <div class="col-md-4">
+                <h4>Economic Policies</h4>
+                <p>Implemented tax cuts and economic policies that shaped the early 2000s financial landscape.</p>
+            </div>
+            <div class="col-md-4">
+                <h4>Education Reform</h4>
+                <p>Introduced the No Child Left Behind Act to improve education standards in America.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="container mt-5">
+    <h2>Contact</h2>
+    <p>For more information, visit the <a href="https://www.georgewbushlibrary.smu.edu/">official George W. Bush Library website</a>.</p>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3 mt-5">
+    <p>&copy; 2025 George Bush Website. All rights reserved.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
